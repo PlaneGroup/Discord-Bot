@@ -3,7 +3,7 @@ const scraper = require('table-scraper');
 const bot = new Discord.Client();
 const settings = require('./settings.json');
 
-// Call Info fro Settings
+// Call Info from Settings
 const noticeChannel = settings.NOTICE_CHANNEL_ID;
 const updateRateOnlineFlight = settings.UPDATE_RATE_ONLINE_FLIGHT_STATUS;
 const updateRateTotalStatus = settings.UPDATE_RATE_TOTAL_STATUS;
