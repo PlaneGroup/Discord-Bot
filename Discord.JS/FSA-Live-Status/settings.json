@@ -1,0 +1,27 @@
+{
+    "*Description*": {
+        "!Caution!": "Do not modify *Description* Section!, you can modify below *Description* Section",
+        "BOT_TOKEN": "You must enter the TOKEN of the your Bot",
+        "NOTICE_CHANNEL_ID": "You can set the Notice Channel(FSA Status Updae Channel",
+        "UPDATE_RATE_ONLINE_FLIGHT_STATUS": "You can set 'FSAirlines Live Flight Status' update rate(It is in seconds), Must be greater than or equal to 1.(Default:10) : It must be a number only.",
+        "UPDATE_RATE_TOTAL_STATUS": "You can set 'FSAirlines Total Flight Status' update rate(It is in minute), Must be greater than or equal to 1.(Default:1) : It must be a number only.",
+        "COLOR": "You can set Embed Color. (Default:GREEN)",
+        "ERROR_CORLOR": "You can set Embed Error Color. (Default:FF0000 = Red Color)",
+        "greenColor": "Embed color that appears when loading Status. (Default:GREEN)",
+        "VA_ID": "You must enter the ID of the VA whose Status is to be called.",
+        "VA_NAME": "You can set name of the VA"
+    },
+
+    "BOT_TOKEN": "",
+
+    "NOTICE_CHANNEL_ID": "",
+    "UPDATE_RATE_ONLINE_FLIGHT_STATUS": 10,
+    "UPDATE_RATE_TOTAL_STATUS": 1,
+
+    "COLOR": "GREEN",
+    "ERROR_CORLOR": "FF0000",
+    "greenColor": "GREEN",
+
+    "VA_ID": "",
+    "VA_NAME": ""
+}

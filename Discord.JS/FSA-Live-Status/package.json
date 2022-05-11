@@ -1,0 +1,28 @@
+{
+  "name": "fsa-live-status",
+  "version": "1.0.0",
+  "description": "Update FSAirlines Status on Discord via Discord bot using FSAirlines Live Status Data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "None"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PlaneGroup/Discord-Bot/tree/main/Discord.JS/FSA-Live-Status"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs",
+    "fsairlines",
+    "status",
+    "live",
+    "update"
+  ],
+  "author": "HyeonSeok Lee (PLANE), qaznm0@naver.com",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "table-scraper": "^1.0.3"
+  }
+}
