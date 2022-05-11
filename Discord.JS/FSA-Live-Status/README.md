@@ -1,4 +1,4 @@
-FSAirlines VA Status Live Updater | Discord Bot
+FSAirlines VA Status Live Updater | Discord Bot | Discord.js
 =============
 <pre>
 <code>
