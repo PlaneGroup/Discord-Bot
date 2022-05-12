@@ -21,6 +21,7 @@ let MonthlyPilotStats = [];
 
 bot.on("ready", () => {
     const automsgFSA = bot.channels.cache.get(`${noticeChannel}`);
+    //Auto delete previous message in the notice channel
     automsgFSA.bulkDelete(100)
     //FSAirlines Status
     setInterval(() => {
