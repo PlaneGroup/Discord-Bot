@@ -25,7 +25,7 @@ bot.on("ready", () => {
     automsgFSA.bulkDelete(100)
     //FSAirlines Status
     setInterval(() => {
-        scraper.get(`http://remote.fsairlines.net/v1/mpilotstats.php?rvi=${vaId}&title=off`)
+        scraper.get(`https://remote.fsairlines.net/v1/mpilotstats.php?rvi=${vaId}&title=off`)
         .then(function(monthStats) {
             MonthlyPilotStats = [];
             for(var i=0; i<monthStats.length;i++){
@@ -200,5 +200,7 @@ bot.on("ready", () => {
         }
     }, updateRateOnlineFlight * 1000))
 });
+
+process.on("uncaughtException", function(err) { console.error("uncaughtException (Node is alive)", err); });
 
 bot.login(settings.BOT_TOKEN);
